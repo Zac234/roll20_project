@@ -2,15 +2,12 @@
 
 let d20roll_mods = document.getElementsByClassName('d20numberselection')
 let button_1 = document.getElementById('confirm')
-let int20 = document.getElementById('userd20')
-int20 = ['1,2,3,4,5,6']
+let user = document.getElementById('userd20')
+let int20 = ['1,2,3,4,5,6']
 
 function do_math20(){
-    return(int20*20)
+    int20*20
     }
-if (int20>=6){
-    button_1.addEventListener(do_math20)
-} else console.log('you didnt do it right this time')
 
 
 
@@ -20,7 +17,7 @@ if (int20>=6){
 let int12 = ['1,2,3,4,5,6,7,8,9,10']
 
 function do_math12(){
-    int12 * 12
+    int12 * 10
  }
 
 // this code is for the d-10
@@ -67,3 +64,9 @@ function do_math4(){
 
 
 // this is the code for the total number from all dice used
+
+
+
+function Do_Math(){
+    int20*20+int12*10+int8*8+int6*6+int4*4
+}
