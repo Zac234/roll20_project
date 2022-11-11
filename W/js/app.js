@@ -69,4 +69,5 @@ function do_math4(){
 
 function Do_Math(){
     int20*20+int12*10+int8*8+int6*6+int4*4
+    
 }
