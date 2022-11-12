@@ -7,7 +7,6 @@ let failcode = document.getElementById('error')
 function do_math20(){
     if (user20=1){
         1*20
-
     }elseif(user20=2);{
         2*20
     }elseif(user20=3);{
