@@ -29,13 +29,15 @@ body{
 
 /* this is the css code for the d20 */
 
-.d20{
 
-}
 #d20icon{
     height: 200px;
     width:200px;
 
+}
+#error{
+    display:none;
+    
 }
 
 /* this is the css code for the d12 */

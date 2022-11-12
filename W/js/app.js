@@ -1,13 +1,31 @@
 // this is code for the d20 drop down equation
 
-let d20roll_mods = document.getElementsByClassName('d20numberselection')
-let button_1 = document.getElementById('confirm')
-let user = document.getElementById('userd20')
-let int20 = ['1,2,3,4,5,6']
-
+let rollbutton = document.getElementById('rolld20')
+let user20 = document.getElementById('userd20')
+user20=(1,2,3,4,5,6)
+let failcode = document.getElementById('error')
 function do_math20(){
-    int20*20
+    if (user20=1){
+        1*20
+
+    }elseif(user20=2);{
+        2*20
+    }elseif(user20=3);{
+        3*20
+    }elseif(user20=4);{
+        4*20
+    }elseif(user20=5);{
+        5*20
+    }elseif(user20=6);{
+        6*20
+    }elseif(user20>6);{
+        failcode.style.display=block
     }
+        
+}
+    if(user20==true){
+    rollbutton.addEventListener('click',do_math20)
+} 
 
 
 
